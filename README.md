@@ -75,6 +75,8 @@ Mocking is the practice of replacing real functions, APIs, or modules with fake 
 - Avoid external dependencies (e.g., databases, APIs)
 - Isolate the unit under test
 
+Dependency Injection is done for mocking function, class or component.
+
 ### Dependencies Injection
 
 Dependency Injection (DI) is a design pattern in which a class or function receives its dependencies from the outside rather than creating them internally. This makes your code:

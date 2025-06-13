@@ -8,12 +8,15 @@ export function sum(a, b) {
   return a + b;
 }
 
-export function processOrder(data) {
-  const result = processPayment(data.amount);
+export function processOrder(data, dependency) {
+  const result = dependency.processPayment(data.amount);
+  return result;
 }
 
 function processPayment(amount) {
+  console.log("Process Payment method");
+  //Api call
   return { id: 1, amount: amount };
 }
 
-console.log(processOrder({ amount: 100 }));
+// console.log(processOrder({ amount: 100 }));
