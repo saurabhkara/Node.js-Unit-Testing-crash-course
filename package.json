@@ -1,0 +1,20 @@
+{
+  "name": "node.js-unit-testing",
+  "version": "1.0.0",
+  "description": "\"# Node.js-Unit-Testing-crash-course\"",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saurabhkara/Node.js-Unit-Testing-crash-course.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saurabhkara/Node.js-Unit-Testing-crash-course/issues"
+  },
+  "homepage": "https://github.com/saurabhkara/Node.js-Unit-Testing-crash-course#readme"
+}
