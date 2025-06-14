@@ -84,3 +84,22 @@ Dependency Injection (DI) is a design pattern in which a class or function recei
 - More testable
 - More flexible
 - Easier to maintain and mock
+
+### Snapshot testing
+
+Snapshot Testing is a technique used to capture and compare the output of a component or function at a specific point in time. When the test runs again, it compares the current output to the saved "snapshot".
+
+If the output has changed, the test will fail—signaling that something has been modified, either intentionally or unintentionally.
+
+usages:
+When response is complex, we try to save snapshot of api response and then compare properties
+
+### Integration testing
+
+Integration Testing is a type of software testing where multiple units or components are combined and tested as a group to verify that they work together correctly.
+
+### Testing Triangle
+
+unit testing - 70%
+Integration Testing - 20%
+E2E - 10%
